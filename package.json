@@ -1,6 +1,6 @@
 {
-  "name": "@microsoft/msrcrypto",
-  "version": "1.6.4",
+  "name": "@mc/msrcrypto",
+  "version": "1.6.5",
   "description": "MSR JavaScript Cryptography Library",
   "license": "Apache-2.0",
   "repository": {
@@ -10,8 +10,8 @@
   "files": [
     "lib"
   ],
+  "main": "lib/msrcrypto.min",
   "scripts": {
-    "preinstall": "npx npm-force-resolutions",
     "build": "gulp"
   },
   "resolutions": {
